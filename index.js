@@ -73,5 +73,6 @@ server.delete('/users/:index', checkUsers, (req, res) => {
 
   return res.send('Usuário deletado');
 });
+//testando git
 
 server.listen(3000);
